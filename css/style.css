@@ -1,0 +1,209 @@
+body{
+	font-family: 'Hanken Grotesk', sans-serif;
+   font-family: 'IBM Plex Sans', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Red Hat Display', sans-serif;
+}
+.blue_oval{
+width: 281.405px;
+height: 281.405px;
+flex-shrink: 1;
+border-radius: 281.405px;
+opacity: 0.2824576199054718;
+background-color: #40FFF6;
+filter: blur(67.95704650878906px);
+}
+.orange_oval{
+width: 281.405px;
+height: 281.405px;
+flex-shrink: 1;
+border-radius: 281.405px;
+opacity: 0.1531779021024704;
+background: #FF9201;
+filter: blur(67.95704650878906px);
+}
+.logo{
+	margin: 40px 0px 0px 24px;
+	max-width: 146px;
+}
+h1{
+	width: 327px;
+	color: #191826;
+font-family: IBM Plex Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px; /* 120% */
+letter-spacing: -0.455px;
+}
+.first_p{
+	width: 327px;
+	color: #191826;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.mobile_img{
+	width: 208.972px;
+height: 430px;
+flex-shrink: 0;
+
+position: absolute !important;
+top: 24%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.container{
+	display: flex;
+	width: 375px;
+	align-content: center;
+	margin: auto;
+	position: relative;
+
+	
+}
+.oval_div{
+	max-width: 200px;
+	max.height: 100px;
+	dislay.flex-shrink: 3;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.mobile_div{
+	width: 375px;
+height: 468px;
+display: flex;
+margin: auto;
+border-radius: 12px;
+background: #191826;
+position: relative;
+margin-top: 166px;
+
+
+}
+.mobile_background{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.div_3{
+	width: 375px;
+	height: 514px;
+	border-radius: 12px;
+    background: #FA7453;
+    margin: auto;
+    padding-top: 48px;
+   
+    
+}
+.title_2{
+	color: #FCFAF9;
+	font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 125% */
+margin-left: 36px;
+
+
+}
+.second_p{
+	color: #FCFAF9;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+width: 302px;
+margin: auto;
+margin-top: 12px;
+}
+.span_money{
+	color: #FCFAF9;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 80% */
+margin-top: 36px;
+margin-left: 42px;
+}
+.month{
+	color: #FCFAF9;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+letter-spacing: -0.2px;
+margin-top: 45px;
+}
+.apple_button{
+	width: 296px;
+height: 61px;
+flex-shrink: 0;
+border-radius: 12px;
+background-color: #191826;
+display: block;
+margin: auto;
+color: #FCFAF9;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+margin-top: 32px;
+}
+.android_button{
+	width: 296px;
+    height: 61px;
+   flex-shrink: 0;
+   border-radius: 12px;
+background-color: #FCFAF9;
+display: block;
+margin: auto;
+color: #191826;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 177.778% */
+letter-spacing: -0.18px;
+margin-top: 16px;
+
+}
+.footer{
+	width: 375px;
+	height: 397px;
+	background-color:background: #FCFAF9 ;
+	margin: 0 auto;
+}
+.last_p{
+	color: #191826;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+width: 327px;
+margin: 0 auto;
+margin-top: 32px;
+}
+.mail_link{
+	color: #191826;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+margin-left: 24px;
+}
+.icon_div{
+	margin-top: 64px;
+	margin-left: 24px;
+	width: 100px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+}
