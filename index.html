@@ -52,16 +52,16 @@
 					<img src="assets/icon-android.svg">Android Download</button>
 			</div>
 			<div class="footer">
-				<div class="footer_div">
-				  <img class="logo" src="assets/logo.svg" alt="logo">
+				
+				  <img class="logo logo_footer" src="assets/logo.svg" alt="logo">
 				  <p class="last_p">All rights reserved © Equalizer 2021
                    Have any problems? Contact us via social media or email us at  <a class="mail_link" href="mailto:equalizer@example.com">equalizer@example.com</a></p>
                  
-				</div>
+				
                   <div class="icon_div">
-                  <img src="assets/icon-facebook.svg">
-                  <img src="assets/icon-instagram.svg">
-                  <img src="assets/icon-twitter.svg">
+                  <img id="fb" src="assets/icon-facebook.svg">
+                  <img id="insta" src="assets/icon-instagram.svg">
+                  <img id="twitter" src="assets/icon-twitter.svg">
                   	
                   </div>
 				  </div>
@@ -83,6 +83,20 @@
 				});
 					button1.addEventListener("mouseup", () => {
 					button1.style.backgroundColor="#FCFAF9"
+					 });
+					 let fb=document.getElementById("fb")
+					 fb.addEventListener("mousedown", () => {
+					fb.style.backgroundColor="#FFB964";
+				});
+					fb.addEventListener("mouseup", () => {
+					fb.style.color="#FCFAF9"
+					 });
+					 let insta=document.getElementById("insta")
+					 insta.addEventListener("mousedown", () => {
+					insta.style.backgroundColor="#FFB964";
+				});
+					insta.addEventListener("mouseup", () => {
+					insta.style.color="#FCFAF9"
 					 });
 
 			</script>

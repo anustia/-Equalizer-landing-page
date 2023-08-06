@@ -25,16 +25,18 @@ filter: blur(67.95704650878906px);
 .logo{
 	margin: 40px 0px 0px 24px;
 	max-width: 146px;
+	margin-left: 24px;
 }
 h1{
 	width: 327px;
-	color: #191826;
+color: #191826;
 font-family: IBM Plex Sans;
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: 48px; /* 120% */
 letter-spacing: -0.455px;
+margin-left: 24px;
 }
 .first_p{
 	width: 327px;
@@ -44,6 +46,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
+margin-left: 24px;
 }
 .mobile_img{
 	width: 208.972px;
@@ -55,6 +58,7 @@ top: 24%;
 left: 50%;
 transform: translate(-50%,-50%);
 }
+
 .container{
 	display: flex;
 	width: 375px;
@@ -66,8 +70,8 @@ transform: translate(-50%,-50%);
 }
 .oval_div{
 	max-width: 200px;
-	max.height: 100px;
-	dislay.flex-shrink: 3;
+	height: 100px;
+	dislay flex-shrink: 3;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -98,6 +102,7 @@ margin-top: 166px;
     background: #FA7453;
     margin: auto;
     padding-top: 48px;
+	
    
     
 }
@@ -177,7 +182,7 @@ margin-top: 16px;
 .footer{
 	width: 375px;
 	height: 397px;
-	background-color:background: #FCFAF9 ;
+	background-color: #FCFAF9 ;
 	margin: 0 auto;
 }
 .last_p{
@@ -281,3 +286,78 @@ margin-left: 24px;
 
     
 }
+@media only screen and (min-width: 1440px){
+	.body{
+		max-width: 100vh;
+	}
+	.container{
+		width: 1440px;
+		
+	}
+	
+	.logo{
+		margin-top: 173px;
+
+	}
+	h1{
+		width: 900px;
+		font-size: 88px;
+		margin-right:100px ;
+		margin-top: 127px;
+		line-height: 88px;
+		
+	}
+	
+	.first_p{
+		font-size: 20px;
+		width: 825px;
+		line-height: 34px;
+	}
+	
+	.mobile_div{
+		width: 1110px;
+		height: 600px;
+		margin: auto;
+	}
+	.div_3{
+		margin-left: 200px;
+		top: 40%;
+		width: 446px;
+		height: 625px;
+	}
+	.title_2{
+		font-size: 40px;
+		margin-bottom: 22px;
+	}
+	.second_p{
+		font-size: 20px;
+		width: 333px;
+		margin-bottom: 39px;
+	}
+	.footer{
+		width: 1440px;
+		justify-content: center;
+		
+	}
+	.span_money{
+		font-size: 65px;
+		margin-top: 39px;
+	}
+	.apple_button{
+		width: 333px;
+       height: 61px;
+	   margin-top: 46px;
+	   margin-bottom: 16px;
+
+	}
+	.android_button{
+		width:333px ;
+		height: 61px;
+	}
+	.logo_footer{
+		margin: 30px;
+	}
+}
+
+
+	
